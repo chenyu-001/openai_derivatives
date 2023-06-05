@@ -1,7 +1,7 @@
 import openai
 
 # 确保你设置了 API 密钥
-openai.api_key = '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'
+openai.api_key = input("请输入你的 API 密钥：")
 
 response = openai.Completion.create(
   engine="text-davinci-002",
